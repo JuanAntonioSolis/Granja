@@ -6,7 +6,6 @@
   "author": "juan",
   "license": "MIT",
   "private": true,
-  "packageManager": "yarn@4.12.0",
     "scripts": {
       "start": "node app.js",
       "test": "mocha --exit"
