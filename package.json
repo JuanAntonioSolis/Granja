@@ -1,4 +1,22 @@
 {
   "name": "animalesInicio",
-  "packageManager": "yarn@4.12.0"
+  "version": "1.0.0",
+  "description": "prueba animales",
+  "main": "app.js",
+  "author": "juan",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@4.12.0",
+    "scripts": {
+      "start": "node app.js",
+      "test": "mocha --exit"
+    },
+  "dependencies": {
+    "express": "^5.2.1",
+    "supertest": "^7.2.2",
+    "underscore": "^1.13.7"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
+  }
 }
